@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: rgb(112, 145, 59);
+  }
+  
+  .container {
+    width: 50em;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #6b6b6b;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="password"] {
+    padding: 10px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    margin: 0 auto;
+    background-color: #1cb323;
+    color: #fff;
+    width: 10em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s;
+  }
+
+  
+  button[type="submit"]:hover {
+    background-color: #1a741e;
+  }
+  .box-uleam{
+    width: 50%;
+    margin: 0px;
+    height: 550px;
+    border-right: 0;
+    border-top: 0;
+    border-left: 1px;
+    border-bottom: 0;
+    border-radius: 5px;
+    background-color: rgb(153, 206, 67);
+  }
+  .box-uleam img{
+    width: 350px;
+    height: 100px;
+    margin: 13em 1em;
+  }
+  .box-register{
+    margin: 25px auto;
+    background-color: #ffffff;
+  }
+  
+  .links{
+  margin: 25px auto;
+  background-color: #ffffff;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Página de Inicio Universitario</title>
+	<link rel="stylesheet" href="home.css">
+	<script src="home.js"></script>
+</head>
+<body>
+    <div class="box-uleam">
+        <img src="logo_ULEAM.png" alt="foto de persona">
+  </div>
+
+	<header>
+		<div class="bar-menu">
+			<nav>
+				<ul>
+					<li><a href="#" onclick="cargarSilabo('Aplicaciones Web I')">Aplicaciones Web I</a></li>
+					<li><a href="#" onclick="cargarSilabo('Gestión de Base de Datos')">Gestión de Base de Datos</a></li>
+					<li><a href="#" onclick="cargarSilabo('Programación Orientada a Objetos')">Programación Orientada a Objetos</a></li>
+				</ul>
+			</nav>
+			<nav class="profile-content">
+				<ul>
+				  <li><a href="#">Inicio</a></li>
+				  <li><a href="#">Perfil</a></li>
+				  <li><a id="log-out" onclick="logout()" href="#">Cerrar sesión</a></li>
+				</ul>
+			  </nav>
+		</div>
+
+	</header>
+    
+	<main>
+		<div id="contenido">
+			<h1>Bienvenido(a) a la página de inicio universitario</h1>
+			<p>Seleccione una materia para visualizar el silabo.</p>
+		</div>
+	</main>
+    <footer>
+        <p>Universidad ULEAM © 2023</p>
+      </footer>
+</body>
+</html>
